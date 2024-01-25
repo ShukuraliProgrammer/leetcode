@@ -7,6 +7,7 @@ class ParkingSystem:
         self.car_type_counts = [self.big, self.medium, self.small]
 
     def addCar(self, carType: int) -> bool:
+
         if carType == 1:
             if self.big != 0:
                 self.big -= 1
